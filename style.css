@@ -7,8 +7,79 @@
 body {
   height: 100vh;
   font-family: 'Outfit';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #121826;
+  color: azure
 }
+
+#hero {
+  margin-top: 48px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin-bottom: 16px;
+  color:#E5E7EB;
+  font-size: 2.5rem;
+}
+
+#hero p {
+  margin-bottom: 48px;
+  color:#9DA3AE;
+}
+
 
 #cards {
   display: flex;
+  gap: 48px;
+}
+
+.card {
+  padding: 24px;
+  /* text-align: center; */
+  width: 316px;
+  background-color: #212936;
+  border-radius: 15px;
+}
+
+.card h3{
+  padding-bottom: 16px;
+  color:#E5E7EB;
+  font-size: 1.25rem;
+}
+
+.card p{
+  padding-bottom:16px;
+  color:#D2D5DA;
+  font-size:1rem;
+}
+
+.card img{
+  border-radius:10px;
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.first-card {
+  background-color: #FCEED8;
+}
+
+.second-card {
+  background-color: #DEE9FC;
+}
+
+.third-card {
+  background-color: #FBE5E6;
 }
